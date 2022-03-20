@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/*font-family: 'Lexend Deca', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/*font-family: 'Big Shoulders Display', cursive;*/
+
+  html {
+      box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+/*MAIN*/
+.BOX {
+  display: flex;
+  margin: 3rem 8rem;
+}
+.BOX__boxs {
+  padding: 3.3rem;
+  color: white;
+}
+
+.BOX__box1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: .6rem;
+  border-bottom-left-radius: .6rem;
+}
+.BOX__box2 {
+  background-color: hsl(184, 100%, 22%);
+} 
+.BOX__box3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+}
+
+.BOX__img {
+  margin-bottom: 1.5rem;
+}
+
+.BOX__h2 {
+  margin-bottom: 1.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+}
+.BOX__p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 3rem;
+  padding: .7rem 1.3rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+.button--box1 {
+  color: hsl(31, 77%, 52%);
+}
+.button--box2 {
+  color: hsl(184, 100%, 22%);
+}
+.button--box3 {
+  color: hsl(179, 100%, 13%);
+}
+
+/*FOOTER*/
+.attribution {
+  font-size: 13px; 
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+
+
+
+@media (max-width: 900px){
+  .BOX {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 4rem;
+  }
+  .BOX__boxs {
+    margin-bottom: 2rem;
+  }
+  .BOX__box1, .BOX__box2, .BOX__box3 {
+    border-radius: .6rem;
+  }
+
+}
+
+@media (max-width: 600px){
+  .BOX {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 4rem;
+  }
+  .BOX__boxs {
+    margin-bottom: 2rem;
+  }
+  .BOX__box1, .BOX__box2, .BOX__box3 {
+    border-radius: .6rem;
+  }
+}
