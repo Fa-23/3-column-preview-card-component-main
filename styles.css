@@ -22,11 +22,14 @@ body {
 /*MAIN*/
 .BOX {
   display: flex;
-  margin: 3rem 8rem;
+  justify-content: center;
+  margin-top: 5rem;
 }
 .BOX__boxs {
   padding: 3.3rem;
   color: white;
+  width: 20rem;
+  height: 30rem;
 }
 
 .BOX__box1 {
